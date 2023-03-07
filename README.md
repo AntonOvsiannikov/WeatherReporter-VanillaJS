@@ -11,6 +11,6 @@
 <ul>
   <li>Shows information about the weather in the selected city</li>
   <li>Shows temperature, humidity, wind speed for the selected city</li>
-  <li>Added description to aplication</li>
+  <li>Adaptive design for different devices</li>
   <li>The background changes for each weather</li>
  </ul>
