@@ -59,7 +59,7 @@ const rainCodeArr = [
 const key = '<YOUR API KEY>'
 
 const fetchWeatherData = async(cityName) => {
-  const url = `http://api.weatherapi.com/v1/current.json?key=2a1a9a2b744f4c7d8ae172032232802&q=${cityName}`;
+  const url = `http://api.weatherapi.com/v1/current.json?key=${key}&q=${cityName}`;
   const weatherInfo = await fetch(url)
     .then(response => response.json())
     .then(data => {
